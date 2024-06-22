@@ -5,7 +5,7 @@ Mongodb schema creation and executing query
 ## Installation
 
 To run the following query download mongodb and mongo shell
-Url for mongodb: https://www.mongodb.com/try/download/community
+Url for mongodb: https://www.mongodb.com/try/download/community </br>
 Url for mongodb shell: https://www.mongodb.com/try/download/shell
 
 ## How to Run
