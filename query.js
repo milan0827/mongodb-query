@@ -94,6 +94,7 @@ function printSchema(obj, indent) {
     print(indent, key, typeof obj[key]);
   }
 }
+
 // Example
 let productsSchema = db.products.findOne();
 printSchema(productsSchema, "");
@@ -168,4 +169,11 @@ db.customer.insertOne({
   contact: { email: "milanrokaya2014@gmail.com", phoneNo: "0987654321" },
 });
 
-// Finding the Customer
+// Finding all the Customer
+db.customer.find();
+
+// Finding one customer by _id
+db.product.findOne({ _id: ObjectId("6684aca7d8d3dbbece597193") });
+
+// FInd One customer by name
+db.product.findOne({ name: "Watch" });
